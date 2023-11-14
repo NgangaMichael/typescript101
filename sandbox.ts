@@ -1,8 +1,11 @@
-const character = 'mike';
-console.log(character);
-const inputs = document.querySelectorAll('input');
-console.log(inputs);
+let name2 = 'mike';
+let age = 30;
+let ststus = false;
 
-inputs.forEach(input => {
-    console.log(input)
-})
+console.log(name, age, ststus);
+
+const circl = (diameter: number) => {
+    return diameter * Math.PI;
+}
+
+console.log(circl(3));
