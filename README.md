@@ -1,0 +1,1 @@
+tsc sandbox.ts to run the app once and tsc sandbox.ts -w to keep watching
