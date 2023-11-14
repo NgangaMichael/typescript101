@@ -1,11 +1,35 @@
-let name2 = 'mike';
-let age = 30;
-let ststus = false;
+let names = ['mike', 'king', 'alex']
 
-console.log(name, age, ststus);
+// names.push(3)
+names.push('carol')
 
-const circl = (diameter: number) => {
-    return diameter * Math.PI;
+let numbs = [1,2, 4, 5, 6, 6]
+
+// numbs.push('king')
+numbs.push(9)
+
+let mixed = [1, 2, 'king', 'queen', 3, false]
+mixed.push(4);
+mixed.push(true)
+mixed.push('mike')
+
+
+// Objects 
+let ninja = {
+    name: 'mike',
+    age: 30,
+    skills: ['kick', 'punch', 'kick'],
+    isAlive: true,
+    isDead: false
 }
 
-console.log(circl(3));
+// ninja.age = 'mike'
+ninja.age = 20
+
+// if you remove one key it raises an error 
+// ninja = {
+//     name: 'mike',
+//     age: 30,
+//     skills: ['kick', 'punch', 'kick'],
+//     isAlive: true,
+// }
